@@ -358,12 +358,6 @@ ul {
     color: #434455;
 }
 
-.main-team-item-socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .main-team-socials-list {
     display: flex;
     justify-content: center;

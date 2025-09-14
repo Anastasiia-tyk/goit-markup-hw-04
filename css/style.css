@@ -450,6 +450,35 @@ ul {
     color: #434455;
 }
 
+.main-portfolio-item.description {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-portfolio-item-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    transform: translateY(100%);
+}
+
+.main-portfolio-item.description:hover .main-portfolio-item-description {
+    transform: translateY(0);
+}
+
+.main-portfolio-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
 /* FOOTER */
 
 .footer {
